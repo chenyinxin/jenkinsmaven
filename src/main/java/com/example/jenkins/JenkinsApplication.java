@@ -48,7 +48,7 @@ public class JenkinsApplication {
 	@RequestMapping("/GetNet")
 	@ResponseBody
 	public String getNet(){
-		return "请求netCore结果：" + new RestTemplate().getForObject("Http://netcore",String.class);
+		return "请求地址(http://netcore/GetString)结果：" + new RestTemplate().getForObject("http://netcore/GetString",String.class);
 	}
 
 }
