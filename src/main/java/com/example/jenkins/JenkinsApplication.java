@@ -1,4 +1,4 @@
-package com.example.jenkins;
+﻿package com.example.jenkins;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -15,6 +15,7 @@ import java.time.format.DateTimeFormatter;
 public class JenkinsApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(JenkinsApplication.class, args);
+
 	}
 
 	/**
